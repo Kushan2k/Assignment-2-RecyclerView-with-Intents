@@ -13,7 +13,8 @@ import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.weather.assigment_2.utils.Plant
 
-class ItemAdapter(val plants: MutableList<Plant>,val context: Context):RecyclerView.Adapter<ItemAdapter.ItemHolder>() {
+class ItemAdapter(private val plants: MutableList<Plant>, private val context: Context)
+    :RecyclerView.Adapter<ItemAdapter.ItemHolder>() {
 
     class ItemHolder(itemView: View) :RecyclerView.ViewHolder(itemView){
 
@@ -23,7 +24,6 @@ class ItemAdapter(val plants: MutableList<Plant>,val context: Context):RecyclerV
 
 
         init {
-            //TODO initialize views here for the one item in the list
             name_txt=itemView.findViewById(R.id.name_txt)
             scientfic_txt=itemView.findViewById(R.id.sub_txt)
             parent_view=itemView.findViewById(R.id.parent_row)
