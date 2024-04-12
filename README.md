@@ -11,9 +11,15 @@ This Android application allows users to explore various herbal plants found in 
 
 ## Screenshots
 
-![Main Screen](screenshots/main_screen.png)
-![Detail Screen](screenshots/detail_screen.png)
-![Add Plant Screen](screenshots/add_plant_screen.png)
+<center>
+
+<img src='screenshots/main.jpg' width='350' alt='main' style='margin:10px'/>
+<img src='screenshots/details.jpg' width='350' alt='Detail Screen' style='margin:10px'/>
+
+<img src='screenshots/details2.jpg' width='350' alt='Detail Screen 2' style='margin:10px'/>
+<img src='screenshots/add.jpg' width='350' alt='Add Plant Screen' style='margin:10px'/>
+
+</center>
 
 ## Technologies Used
 
